@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+           Holi Event Ticket
+        </title>
+        <style>
+            .main{
+                height: 200px;
+                width: 800px;           
+                margin: 0 auto;
+                display: flex;
+                margin-top: 50px;
+            }
+            .part-1{
+                background-image: url(./h1.jpg);
+                width: 70%;
+                border-radius: 20px ;
+                padding: 10px;
+                border: dashed 1px;
+                border-right: dotted 1px;
+                box-shadow: 0 0 5px 1px ; 
+            }
+            .part-2{
+                background-image: url(./2.jpg) ;
+                width: 30%;
+                border-radius: 20px;
+                padding: 10px;
+                border: dashed 1px ;
+                border-left: dotted 1px;
+                box-shadow: 0 0 5px 1px ;
+                padding-left: 10px ;
+            }
+           .span-1{
+            font-family:monospace;
+                font-size: 20px;
+                margin-left: 150px;
+               
+           }
+           .para{
+            font-family:monospace;
+           margin-top: -18px;
+            font-size: 28px;
+            text-align: center;
+           text-shadow: 1px 1px 10px #e89d06,2px 2px 1px #cc921f;     
+           
+           }
+           .span-2{
+            font-family:monospace;
+                font-size: 12px;
+                margin-left: 40px;
+                height: fit-content;
+                width: fit-content;
+                background-color: #020202;
+                color: white;
+                border-radius: 4px;
+                border: 1px solid rgb(246, 242, 242);
+               
+           }
+           .para-1{
+           
+                font-family:monospace;
+                font-size: 15px;
+           }
+           .img{
+                    height: 40px;
+                    width: 40px;
+                    margin-left: -5px;
+                    margin-top: -6px;
+                    border-radius: 20px ;
+                }
+                #image{
+                    height: 25px;
+                    width: 25px;
+                   
+                }
+           
+            @media(max-width:600px){
+                .main{
+                   flex-direction: column;
+                    height: auto;
+                    width: auto;
+                    margin-left: 30px;
+                }
+                .part-1{
+                    width: 400px;
+                    border-bottom: 1px dotted;
+                    border-right: 1px dashed;
+                }
+                
+                .part-2{
+                    width: 400px;
+                    border-top:  1px dotted;
+                    border-left: 1px dashed;
+                }
+                .span-1{
+                   margin-left: 85px;
+                }
+                .span-2{
+                    margin-left: 130px;
+                    height: none;
+                    width: none;
+                    color: #020202;
+                    background-color: white;
+                }
+                
+                }
+            @media(min-width:601px) and (max-width:800px)
+            
+            {
+                .main{
+                   flex-direction: column-reverse;
+                   margin-top:220px;
+                   margin-left: 50px;
+                }
+                .part-1{
+                    width: 580px;
+                    height: 200px;
+                    border-top: 1px dotted;
+                    border-right: 1px dashed;
+                }
+                .part-2{
+                    width: 580px;
+                    height: 180px;
+                    border-bottom: 1px dotted;
+                    border-left: dashed 1px;
+                    }
+                    .span-1{
+                        margin-left: 180px;
+                    }
+                    .span-2
+                   {
+                    margin-left: 200px;
+                    height: none;
+                    width: none;
+                    color: #020202;
+                    background-color: white;
+                    }
+            }
+            .img-1{
+                height: auto;
+                width: auto;  
+                background-image: url(./2.jpg);
+            }
+            .holi-fest{
+                font-family: monospace;
+                font-size: 25px;
+                text-align: center;
+                margin-top: 10px;
+            }
+            #venue-font{            
+                font-size: 17px;
+            }
+            .venue-margin{
+                margin-left: 55px;
+            }
+        </style>
+        <body>
+            <div class="main">
+               
+                    <div class="part-1">
+                        <img src="./clg logo.png" alt="logo" class="img">
+                        <span class="span-1">
+                        DMIHER, WARDHA
+                        </span> 
+                       
+                        <p class="holi-fest">
+                            Holi Fest 2025
+                        </p>
+                        <p class="para">
+                        Organised by Meghe Groups and Ltd.
+                        </p>
+                        <p class="para" id="venue-font">
+                            Date & Time: 14-3-25 & 12PM TO 6PM. 
+                            </p>
+                        <p class="para venue-margin" id="venue-font">
+                            Venue: DMIHER Stadium,Wardha.
+                        </p>
+                </div>
+            <div class="part-2">
+                <img src="./clg logo.png" alt="logo" class="img" id="image">
+                <span class="span-2">
+                Ticket No:786
+                </span>
+                <p class="para-1">
+                    Name: 
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; _ _ _ _ _ _ _ _ _ _
+                </p>
+               
+                <p class="para-1">
+
+                    Class: 
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; _ _ _ _ _ _ _ _ _ _
+                </p> 
+                <p class="para-1">
+                    Roll No: 
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; _ _ _ _ _ _ _ _ _ _
+                </p>
+                 </div>
+            </div>
+        </body>
+    </head>
+    
